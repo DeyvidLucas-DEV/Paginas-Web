@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Comfortaa' , Hind Madurai    ;
+
+}
+.main_login{
+    width: 100vw;
+    height: 100vh;
+    background: #303A2E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.left_login > h1{
+    font-size: 3vw;
+    color: #EAEBEA;
+}
+
+
+.right_login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card_login{ 
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #596157;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #000;
+}
+
+.card_login > h1{
+    color: #EAEBEA;
+    font-weight: 800;
+    margin: 0;
+}
+
+.text_field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px ;
+
+}
+
+.text_field > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #d2d4d1;
+    color: #697067;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.text_field > label{
+    color: #f8f9f8;
+    margin-bottom: 10px;
+}
+
+.text_field > input::placeholder{
+    color: black;
+}
+
+.btn_login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #000;
+    background: #d2d4d1;
+    box-shadow: 0px 10px 40px -12px #b2b3b2;
+}
+
+@media only screen and (max_width: 950px) {
+    .card_login{
+    width: 85%;
+    }
+}
+    
